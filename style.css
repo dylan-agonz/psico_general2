@@ -44,8 +44,26 @@
   }
   .nav { display: flex; align-items: center; justify-content: space-between; padding: 14px 0 }
   .brand { display: flex; align-items: center; gap: 12px; font-weight: 700; letter-spacing: .3px }
-  .brand svg { width: 32px; height: 32px }
+  .brand svg { width: 40px; height: 40px }
   .brand span { font-size: 1.05rem }
+  
+  /* Tamaño/ajuste del logo como imagen */
+.brand-logo {
+    display: block;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;   /* mantiene proporción sin recortar */
+    image-rendering: auto; /* se ve nítido a 1x y 2x */
+  }
+  
+  /* (Opcional) Alineación de marca si aún no la tenías */
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 700;
+    letter-spacing: .3px;
+  }
   
   /* Tabs */
   .tabs { display: flex; gap: 6px; flex-wrap: wrap }
