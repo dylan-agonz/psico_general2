@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Psicología | Curso</title>
+  <meta name="description" content="Sitio de apoyo para la materia de Psicología: Inicio y Unidades 1 a 5" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ===== Header / Nav ===== -->
+  <header>
+    <div class="container nav" role="navigation" aria-label="Navegación principal">
+      <div class="brand" aria-label="Marca del curso">
+        <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+          <defs>
+            <linearGradient id="g" x1="0" x2="1">
+              <stop offset="0%" stop-color="#22d3ee"/>
+              <stop offset="100%" stop-color="#8b5cf6"/>
+            </linearGradient>
+          </defs>
+          <path fill="url(#g)" d="M32 6c-4.4 0-8 3.6-8 8v4c-2.6-1.3-5.9-.9-8.1 1.3-3.1 3.1-3.1 8.2 0 11.3l2.1 2.1c-4.1 1.5-7 5.4-7 10 0 5.9 4.8 10.7 10.7 10.7H32c8.8 0 16-7.2 16-16V14c0-4.4-3.6-8-8-8H32z"/>
+          <path fill="#0f172a" d="M21 22a3 3 0 1 0 0 6h6v-6h-6zm8 0v6h6a3 3 0 1 0 0-6h-6zM14 36a3 3 0 1 0 0 6h15v-6H14zm19 0v6h17a3 3 0 1 0 0-6H33z"/>
+        </svg>
+        <span>Psicología · Grupo 5</span>
+      </div>
+
+      <div class="tabs" role="tablist" aria-label="Secciones del curso">
+        <button class="tab-btn" role="tab" aria-selected="true" aria-controls="panel-inicio" id="tab-inicio">Inicio</button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-u1" id="tab-u1">Unidad 1</button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-u2" id="tab-u2">Unidad 2</button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-u3" id="tab-u3">Unidad 3</button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-u4" id="tab-u4">Unidad 4</button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-u5" id="tab-u5">Unidad 5</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Hero / Portada ===== -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <span class="kicker">Psicología General II</span>
+        <h1>Grupo </h1>
+        <p>
+          Este sitio reúne contenidos y recursos de cinco unidades temáticas.
+          Navegá con las pestañas para ver apuntes, objetivos y enlaces de estudio. 
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#panel-u1" data-goto="panel-u1">Empezar por Unidad 1</a>
+          <a class="btn" href="#panel-inicio" data-goto="panel-inicio">Ver Introducción</a>
+        </div>
+      </div>
+
+      <div class="hero-illus" aria-hidden="true">
+        <svg viewBox="0 0 600 360" preserveAspectRatio="xMidYMid meet">
+          <defs>
+            <linearGradient id="lg1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#22d3ee"/>
+              <stop offset="100%" stop-color="#8b5cf6"/>
+            </linearGradient>
+            <radialGradient id="rg" cx="50%" cy="40%" r="60%">
+              <stop offset="0%" stop-color="rgba(139,92,246,.55)"/>
+              <stop offset="100%" stop-color="rgba(34,211,238,.05)"/>
+            </radialGradient>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#rg)"/>
+          <g transform="translate(60,80)" stroke="url(#lg1)" stroke-width="2" fill="none">
+            <path d="M0 80 C 60 20, 120 20, 180 80 S 300 140, 360 80 S 480 20, 540 80" opacity=".9"/>
+            <path d="M0 110 C 60 50, 120 50, 180 110 S 300 170, 360 110 S 480 50, 540 110" opacity=".6"/>
+            <path d="M0 140 C 60 80, 120 80, 180 140 S 300 200, 360 140 S 480 80, 540 140" opacity=".4"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contenido (Paneles) ===== -->
+  <main class="container section">
+    <div class="grid">
+      <!-- Inicio -->
+      <section id="panel-inicio" class="panel card span-12" role="tabpanel" aria-labelledby="tab-inicio" data-active="true" tabindex="-1">
+        <h2>Bienvenid@</h2>
+        <p>Usá las pestañas superiores para explorar cada unidad. Este diseño es accesible, responsive y puede imprimirse.</p>
+        <div class="grid">
+          <div class="card span-6">
+            <h3>Objetivos del curso</h3>
+            <ul class="list">
+              <li>Comprender conceptos fundamentales de la psicología.</li>
+              <li>Relacionar teoría con ejemplos cotidianos y clínicos.</li>
+              <li>Desarrollar pensamiento crítico y habilidades de estudio.</li>
+            </ul>
+          </div>
+          <div class="card span-6">
+            <h3>Cómo usar este sitio</h3>
+            <ul class="list">
+              <li>Clic en <strong>Unidad 1–5</strong> para abrir cada panel.</li>
+              <li>Reemplazá los textos de ejemplo y añadí enlaces a PDFs.</li>
+              <li>Funciona <em>offline</em> y no usa librerías externas.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Unidad 1 -->
+      <section id="panel-u1" class="panel card span-12" role="tabpanel" aria-labelledby="tab-u1" tabindex="-1">
+        <span class="kicker">Unidad 1</span>
+        <h2>Tema de la Unidad 1</h2>
+        <p>Descripción de la unidad, competencias y resultados esperados.</p>
+        <h3>Contenidos</h3>
+        <ul class="list">
+          <li>Punto 1</li>
+          <li>Punto 2</li>
+          <li>Punto 3</li>
+        </ul>
+      </section>
+
+      <!-- Unidad 2 -->
+      <section id="panel-u2" class="panel card span-12" role="tabpanel" aria-labelledby="tab-u2" tabindex="-1">
+        <span class="kicker">Unidad 2</span>
+        <h2>Tema de la Unidad 2</h2>
+        <p>Incluí conceptos clave, autores y un esquema de estudio sugerido.</p>
+        <h3>Lecturas recomendadas</h3>
+        <ul class="list">
+          <li>Artículo o capítulo 1</li>
+          <li>Artículo o capítulo 2</li>
+          <li>Apunte de cátedra</li>
+        </ul>
+      </section>
+
+      <!-- Unidad 3 -->
+      <section id="panel-u3" class="panel card span-12" role="tabpanel" aria-labelledby="tab-u3" tabindex="-1">
+        <span class="kicker">Unidad 3</span>
+        <h2>Tema de la Unidad 3</h2>
+        <p>Agregá cuadros comparativos, definiciones operativas y ejemplos.</p>
+        <div class="card">
+          <h3>Glosario</h3>
+          <ul class="list">
+            <li><strong>Término A:</strong> definición concisa.</li>
+            <li><strong>Término B:</strong> definición concisa.</li>
+            <li><strong>Término C:</strong> definición concisa.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Unidad 4 -->
+      <section id="panel-u4" class="panel card span-12" role="tabpanel" aria-labelledby="tab-u4" tabindex="-1">
+        <span class="kicker">Unidad 4</span>
+        <h2>Tema de la Unidad 4</h2>
+        <p>Sumá esquemas, mapas conceptuales o listas de verificación.</p>
+        <div class="card">
+          <h3>Checklist de estudio</h3>
+          <ul class="list">
+            <li>✔︎ Repasar conceptos clave.</li>
+            <li>✔︎ Practicar preguntas de desarrollo.</li>
+            <li>✔︎ Conectar con casos o ejemplos.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Unidad 5 -->
+      <section id="panel-u5" class="panel card span-12" role="tabpanel" aria-labelledby="tab-u5" tabindex="-1">
+        <span class="kicker">Unidad 5</span>
+        <h2>Tema de la Unidad 5</h2>
+        <p>Incluí cierres integradores, posibles preguntas de final y recursos extra.</p>
+        <div class="card">
+          <h3>Recursos</h3>
+          <ul class="list">
+            <li>Guía de estudio (PDF)</li>
+            <li>Bibliografía ampliada</li>
+            <li>Videos o infografías</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <small>© <span id="year"></span> Cátedra de Psicología General II · Sitio académico para uso educativo.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
