@@ -146,6 +146,10 @@
   <a class="btn" href="https://drive.google.com/file/d/1on53Rj8r4K1g-CEWX3JnCJXLDhDpdLXP/view?usp=drive_link">Click para escuchar el podcast</a>
 </div>
 
+
+  <small class="muted">
+    Editá los enlaces en <code>script.js</code> (constantes <code>U1_PDF_URL</code> y <code>U1_MP3_URL</code>).
+  </small>
 </div>
 
 
@@ -194,16 +198,61 @@
       <!-- Unidad 4 -->
       <section id="panel-u4" class="panel card span-12" role="tabpanel" aria-labelledby="tab-u4" tabindex="-1">
         <span class="kicker">Unidad 4</span>
-        <h2>Tema de la Unidad 4</h2>
-        <p>Sumá esquemas, mapas conceptuales o listas de verificación.</p>
+        <h2>Pensamiento</h2>
+        <p>Acá veremos los mapas conceptuales realizados por distintas IAs y la conclusión del grupo sobre las repuestas de las mismas.</p>
         <div class="card">
-          <h3>Checklist de estudio</h3>
-          <ul class="list">
-            <li>✔︎ Repasar conceptos clave.</li>
-            <li>✔︎ Practicar preguntas de desarrollo.</li>
-            <li>✔︎ Conectar con casos o ejemplos.</li>
-          </ul>
-        </div>
+<div class="card span-12">
+  <h3>Enlaces de los mapas</h3>
+  <div class="stack" style="display:grid; gap:10px; max-width:520px;">
+    <a class="btn" 
+       href="https://dylan-agonz.github.io/psico_general2/assets/esquemagem.png" 
+       target="_blank" rel="noopener">
+       Ver mapa de Gemini
+    </a>
+    <a class="btn" 
+       href="https://dylan-agonz.github.io/psico_general2/assets/esquemanlm.png" 
+       target="_blank" rel="noopener">
+       Ver mapa de Notebooklm
+    </a>
+    <a class="btn" 
+       href="https://dylan-agonz.github.io/psico_general2/assets/esquemacgpt.png" 
+       target="_blank" rel="noopener">
+       Ver mapa de ChatGPT
+    </a>
+  </div>
+<div class="u4-nota card" style="margin-top:12px;">
+  <h4 style="margin:0 0 10px;">Conclusiones sobre el uso de IA</h4>
+  <ol style="margin:0; padding-left:20px;">
+    <li style="margin-bottom:10px;">
+      <strong>Aciertos conceptuales:</strong> las herramientas de inteligencia artificial lograron reflejar los conceptos claves de forma clara y sintetizada, relacionándolos entre ellos en un formato atractivo para leer.
+    </li>
+    <li style="margin-bottom:10px;">
+      <strong>Estrategia iterativa:</strong> a cada herramienta se le tuvo que dar diferentes especificaciones, por ejemplo:
+      <ul style="margin-top:6px; padding-left:18px;">
+        <li><strong>Gemini:</strong> a pesar de pedirle en reiteradas oportunidades y de forma detallada, no logró transformar el resumen en mapa conceptual, sino que lo enviaba en formato de texto.</li>
+        <li><strong>ChatGPT:</strong> logró armar el mapa conceptual luego de varios pedidos, especificando la necesidad de contener flechas para unir los conceptos.</li>
+        <li><strong>NotebookLM:</strong> a pesar de tener un apartado especial para la elaboración de mapas mentales, se tornó en un proceso iterativo para lograr la confección del mapa ya que tuvimos que indicarle de varios modos cómo elaborar el mismo.</li>
+      </ul>
+    </li>
+    <li style="margin-bottom:10px;">
+      <strong>Hallazgos originales o novedosos:</strong>
+      <ul style="margin-top:6px; padding-left:18px;">
+        <li>La rapidez con la que la herramienta confeccionó el mapa solicitado.</li>
+        <li>La correcta clasificación de información y relación de conceptos claves.</li>
+        <li>La paráfrasis utilizada permitía comprender el contenido de forma más sencilla.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Limitaciones:</strong>
+      <ul style="margin-top:6px; padding-left:18px;">
+        <li>La estética es bastante simple.</li>
+        <li>Al pedir correcciones suele empeorar el contenido y traer más errores.</li>
+      </ul>
+    </li>
+  </ol>
+</div>
+</div>
+
       </section>
 
       <!-- Unidad 5 -->
@@ -225,12 +274,10 @@
 
   <footer>
     <div class="container">
-      <small>© <span id="year"></span> Cátedra de Psicología General II · Grupo 6 Barrera Giuliana, Gonzalez Dylan, Herrera Graciela y Jerez Belén.</small>
+      <small>© <span id="year"></span> Cátedra de Psicología General II · Grupo 6 Barrera Giuliana, Gonzalez Dylan, Herrera Graciela, Jerez Belén y Scardino Florencia</small>
     </div>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
-
-
