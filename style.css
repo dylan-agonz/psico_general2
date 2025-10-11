@@ -237,3 +237,18 @@
   background: rgba(17,24,39,.9);
   white-space: nowrap;
 }
+.hero-illus { 
+  flex: 1 1 380px; 
+  min-width: 300px; 
+  min-height: 240px; 
+  display: grid; 
+  place-items: center;
+  filter: drop-shadow(0 10px 40px rgba(124,58,237,.25));
+}
+.hero-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 14px;                 /* opcional: esquinas suaves */
+  box-shadow: 0 12px 40px rgba(0,0,0,.35);
+  display: block;
+}
